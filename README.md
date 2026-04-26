@@ -87,4 +87,14 @@ El agente ha sido validado bajo escenarios reales de Operaciones y Mantenimiento
 - **Respuesta de la IA:** "Pérdida acumulada: 0.58 dB. Proyectando una inyección de +3 dBm, la potencia de llegada estimada es +2.41 dBm. Estado operativo: Óptimo." ✅
 
 ---
+
+## 🛠️ Estado del Proyecto y Roadmap (Naturaleza MVP)
+
+**FiberMind Analytics** se encuentra actualmente en fase de **Producto Mínimo Viable (MVP)**. Como herramienta de ingeniería asistida por IA, su efectividad operativa está sujeta a las siguientes consideraciones:
+
+1.  **Dependencia de Datos:** El razonamiento del agente es tan preciso como la calidad de las bases de datos relacionales provistas. La alimentación constante del *Data Warehouse* (SQLite) es esencial para la integridad de los diagnósticos.
+2.  **Integración de Planos (CAD):** En esta fase, la dimensión espacial utiliza un modelo de indexación heurística sobre archivos `.dwg`. Para despliegues de producción masiva, se recomienda la transición a formatos abiertos (`.dxf`) o la integración directa con **APIs de terceros (ej. Autodesk Forge/APS)** para una extracción ETL automatizada y en tiempo real.
+3.  **Escalabilidad del Modelo:** Aunque el MVP utiliza modelos ligeros locales para garantizar soberanía, la arquitectura es compatible con LLMs de mayor escala según los requisitos de latencia y complejidad del proyecto.
+
+---
 *Proyecto diseñado y desarrollado por **Johan Sarria** para la optimización de procesos O&M en redes FTTH.*
