@@ -85,8 +85,8 @@ El agente ha sido validado bajo escenarios reales de Operaciones y Mantenimiento
 - **Respuesta de la IA:** "Se detectaron 10 hilos con fallas críticas en el Cable 1 (ej. hilos 124, 126, 132, 65, 68). Requieren inspección operativa." ✅
 
 **Localización Geográfica (Planos AutoCAD)**
-- **Prompt:** "¿Dónde está el EMPALME 5?"
-- **Respuesta de la IA:** "📍 Elemento 'EMPALME 5' localizado en Plano: CL PRADOS ORIENTE_CA08_SCL16. Coordenadas: X: 1595.2, Y: -305.1." ✅
+- **Prompt:** "¿Dónde está el Empalme Norte 01?"
+- **Respuesta de la IA:** "📍 Elemento 'EMPALME NORTE 01' localizado en Plano: SECTOR_FICTICIO_ZONA_A. Coordenadas: X: 1024.5, Y: -512.8." ✅
 
 **Cálculo de Presupuesto y Diagnóstico de Viabilidad**
 - **Prompt:** "¿Cómo llega el hilo 144 a la CTO?"
