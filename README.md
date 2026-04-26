@@ -83,4 +83,4 @@ El agente ha sido validado bajo escenarios reales de Operaciones y Mantenimiento
 - **Respuesta de la IA:** "Pérdida acumulada: 0.58 dB. Proyectando una inyección de +3 dBm, la potencia de llegada estimada es +2.41 dBm. Estado operativo: Óptimo." ✅
 
 ---
-*Desarrollado para la optimización de procesos O&M en redes FTTH.*
+*Proyecto diseñado y desarrollado por **Johan Sarria** para la optimización de procesos O&M en redes FTTH.*
