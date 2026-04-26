@@ -39,7 +39,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
         
     mensaje = (
-        "🤖 *Inspector Óptico FTTH - Bot Activo*\n\n"
+        "🤖 *FiberMind Analytics - Bot Activo*\n\n"
         "Puedo ayudarte a monitorear la red de Chiminangos.\n"
         "Comandos disponibles:\n"
         "🔍 /auditar - Busca fallas críticas en el Cable 1\n"

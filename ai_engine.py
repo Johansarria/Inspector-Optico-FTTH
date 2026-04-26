@@ -56,7 +56,7 @@ def query_database(sql):
 async def ask_ai(question):
     # Filtro de saludos (Costo $0 local)
     if is_greeting(question):
-        return "¡Hola! 👋 Soy tu Inspector Óptico Local (Ollama). Estoy listo para analizar la red de Chiminangos sin límites de cuota. ¿Qué consulta técnica tienes?"
+        return "¡Hola! 👋 Soy FiberMind Analytics, tu Agente IA local (Ollama). Estoy listo para analizar la red de Chiminangos sin límites de cuota. ¿Qué consulta técnica tienes?"
 
     # 1. Generar SQL con Ollama
     prompt_sql = f"""

@@ -1,4 +1,4 @@
-# AI-Powered O&M Analytics Agent 🤖📊
+# FiberMind Analytics 🤖📊
 
 Un sistema inteligente, autónomo y privado diseñado para transformar datos crudos de hardware en diagnósticos accionables utilizando **Modelos de Lenguaje Locales (LLMs)**. 
 
@@ -14,7 +14,7 @@ Este proyecto implementa una arquitectura **Text-to-SQL** y análisis de datos e
 - **Análisis de Fallas (Fault Analysis):** El LLM no solo extrae datos, sino que cruza atenuaciones y distancias para diagnosticar la viabilidad del enlace.
 
 ### 2. Pipeline ETL para Datos Binarios Industriales
-- **Extracción y Transformación:** Lectura directa y decodificación de archivos binarios cerrados (Estándar Telcordia SR-4731 / `.sor`) generados por equipos de hardware.
+- **Extracción y Transformación:** Lectura directo y decodificación de archivos binarios cerrados (Estándar Telcordia SR-4731 / `.sor`) generados por equipos de hardware.
 - **Clasificación Heurística:** Algoritmos en Python que procesan matrices de datos (distancia, reflectancia, atenuación) para identificar e indexar eventos físicos (empalmes, anomalías, splitters).
 - **Carga Estructurada:** Volcado automático en una base de datos relacional local (`SQLite`) optimizada para consultas analíticas rápidas.
 
