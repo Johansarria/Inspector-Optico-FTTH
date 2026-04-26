@@ -99,6 +99,26 @@ def auditar_empalmes_criticos(limite_db: float, id_cable: Optional[int] = None) 
         return f"Error en base de datos al realizar la auditoría: {e}"
     except Exception as e:
         return f"Error inesperado del sistema: {e}"
+@mcp.tool()
+def localizar_infraestructura_plano(nombre_elemento: str) -> str:
+    """
+    Busca coordenadas X, Y y el nombre del plano de un elemento físico en los planos indexados (ej: EMPALME 3 o CTO 12).
+    """
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT nombre_elemento, plano, x, y FROM inventario_geografico WHERE nombre_elemento LIKE ?", (f"%{nombre_elemento}%",))
+        row = cursor.fetchone()
+        conn.close()
+        
+        if row:
+            return f"📍 Elemento '{row['nombre_elemento']}' localizado en Plano: {row['plano']}. Coordenadas: X: {row['x']}, Y: {row['y']}"
+        else:
+            return f"❌ No se encontró el elemento '{nombre_elemento}' en el inventario geográfico de planos."
+    except sqlite3.Error as e:
+        return f"Error en base de datos al localizar infraestructura: {e}"
+    except Exception as e:
+        return f"Error inesperado: {e}"
 
 if __name__ == "__main__":
     # Inicia el servidor MCP a través de stdio (Standard Input/Output)

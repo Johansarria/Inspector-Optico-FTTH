@@ -78,8 +78,12 @@ El agente ha sido validado bajo escenarios reales de Operaciones y Mantenimiento
 - **Prompt:** "¿Qué componentes presentan fallas críticas?"
 - **Respuesta de la IA:** "Se detectaron 2 anomalías operativas. El evento de mayor riesgo se ubica en el Hilo 65 (km 4.9) con una desviación de 18.88 dB." ✅
 
+**Localización Geográfica (Planos AutoCAD)**
+- **Prompt:** "¿Dónde está el Empalme 3?"
+- **Respuesta de la IA:** "📍 Elemento 'EMPALME 3' localizado en Plano: PRADOS ORIENTE_CA08. Coordenadas: X: 1540.2, Y: -320.5." ✅
+
 **Cálculo de Presupuesto y Diagnóstico de Viabilidad**
-- **Prompt:** "¿Cuál es el estado de potencia del hilo 144?"
+- **Prompt:** "¿Cómo llega el hilo 144 a la CTO?"
 - **Respuesta de la IA:** "Pérdida acumulada: 0.58 dB. Proyectando una inyección de +3 dBm, la potencia de llegada estimada es +2.41 dBm. Estado operativo: Óptimo." ✅
 
 ---
