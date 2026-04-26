@@ -75,12 +75,12 @@ El agente ha sido validado bajo escenarios reales de Operaciones y Mantenimiento
 - **Respuesta de la IA:** "He procesado 33 registros en total, pertenecientes a la troncal principal (Cable 1)." ✅
 
 **Detección Predictiva de Anomalías Críticas**
-- **Prompt:** "¿Qué componentes presentan fallas críticas?"
-- **Respuesta de la IA:** "Se detectaron 2 anomalías operativas. El evento de mayor riesgo se ubica en el Hilo 65 (km 4.9) con una desviación de 18.88 dB." ✅
+- **Prompt:** "¿Qué hilos del CA01 tienen fallas críticas (>0.5 dB)?"
+- **Respuesta de la IA:** "Se detectaron 10 hilos con fallas críticas en el Cable 1 (ej. hilos 124, 126, 132, 65, 68). Requieren inspección operativa." ✅
 
 **Localización Geográfica (Planos AutoCAD)**
-- **Prompt:** "¿Dónde está el Empalme 3?"
-- **Respuesta de la IA:** "📍 Elemento 'EMPALME 3' localizado en Plano: PRADOS ORIENTE_CA08. Coordenadas: X: 1540.2, Y: -320.5." ✅
+- **Prompt:** "¿Dónde está el EMPALME 5?"
+- **Respuesta de la IA:** "📍 Elemento 'EMPALME 5' localizado en Plano: CL PRADOS ORIENTE_CA08_SCL16. Coordenadas: X: 1595.2, Y: -305.1." ✅
 
 **Cálculo de Presupuesto y Diagnóstico de Viabilidad**
 - **Prompt:** "¿Cómo llega el hilo 144 a la CTO?"
