@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Database
+*.db
+*.db-journal
+
+# OTDR Traces (Real Data)
+TRAZAS/
+*.sor
+*.png
+
+# Logs
+*.log
+pruebas_sistema.txt
+
+# IDE
+.vscode/
+.idea/
