@@ -33,9 +33,15 @@ C:\MLpractica3\
 ├── ftth_mcp_server.py     # Backend de Diagnóstico: Reglas de negocio y heurística de red
 ├── telegram_bot.py        # Interfaz Agéntica: Procesamiento de lenguaje natural y enrutador
 ├── import_otdr_traces.py  # Pipeline ETL: Ingesta de binarios .sor hacia base de datos relacional
+├── setup_ftth_db.py       # Migraciones y setup de la base de datos (Inventario y Óptica)
+├── run_tests.py           # Scripts de validación y benchmarking del sistema
 ├── utils_plot.py          # Motor de renderizado de datos (Matplotlib)
+├── ftth_glossary.md       # Glosario técnico y nomenclatura O&M (CA, CTO, Mufa, etc.)
+├── .env.example           # Plantilla de variables de entorno (Credenciales de Telegram)
+├── .gitignore             # Configuración de exclusión para proteger archivos binarios y bases de datos
 ├── ftth_mantenimiento.db  # Data Warehouse local (SQLite)
-├── TRAZAS/                # Data Lake: Almacenamiento de archivos raw
+├── TRAZAS/                # Data Lake: Almacenamiento de archivos binarios raw (.sor)
+├── PLANOS/                # Archivos GIS/CAD de red local (Ignorados en GitHub por seguridad)
 └── venv/                  # Entorno virtual de dependencias
 ```
 
